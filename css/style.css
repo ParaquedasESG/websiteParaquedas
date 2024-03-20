@@ -1,0 +1,823 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Fira Sans;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #505050;
+}
+
+#header nav {
+  color: #087f8c;
+}
+
+header {
+  background-color: #505050;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+header nav {
+  flex-wrap: wrap;
+  margin-right: 10%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav a {
+  padding: 2% 0.4%;
+  margin: 1%;
+  color: white;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+nav img {
+  height: 60px;
+  width: auto;
+  margin-right: 10%;
+}
+
+nav a:hover {
+  color: #ffd71a;
+}
+
+/* ------------------>> STYLE index <<------------------*/
+
+.imgParaq2 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.imgParaq2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.oqSignificaEsg,
+.oqEUmaConsuloriaESG,
+.pqDevemNosContratar {
+  display: flex;
+  align-items: center;
+}
+
+.oqSignificaEsg img,
+.pqDevemNosContratar img {
+  margin-right: -10%;
+}
+
+.oqEUmaConsuloriaESG img {
+  margin-left: -9%;
+}
+
+.topicoTextoAmarelo {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 4%;
+  text-decoration: underline;
+  text-decoration-color: #ffd71a;
+}
+
+.topicoTextoVerde {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 4%;
+  text-decoration: underline;
+  text-decoration-color: #087f8c;
+}
+
+.textoTopico {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  padding: 4% 10%;
+}
+
+hr {
+  background: #1d1d1d;
+  height: 4px;
+  border-radius: 90px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: none;
+}
+
+.impactos {
+  background: #087f8c;
+  justify-content: center;
+  text-align: center;
+  padding: 4%;
+}
+
+.numerosImpacos div {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.fundoTitulo {
+  background: #ffd71a;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.fundoTitulo p {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px;
+}
+
+.impactos hr {
+  background-color: #ffd71a;
+  height: 10px;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+}
+
+.numImpacto {
+  font-size: 96px;
+  color: #ffffff;
+}
+
+.textoImpacto {
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.descProjetos {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.avaliacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.avaliacoes img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.nossosClientes {
+  margin: 6% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.nossosClientes img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ------------------>> STYLE VOE COM A PARAQUEDAS <<------------------*/
+
+.imgKellenODS {
+  width: 100%;
+  overflow: hidden;
+}
+
+.imgKellenODS img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.servicos {
+  font-size: 64px;
+  color: #fff;
+  text-align: center;
+  margin: 30px;
+}
+
+.retaAmarela {
+  position: relative;
+  width: auto;
+  height: 100%;
+  background: linear-gradient(270deg, rgba(255, 215, 26, 0) 0%, #ffd71a 100%);
+  margin: 5%;
+  margin-left: 16%;
+  border-radius: 100px 0px 0px 100px;
+}
+
+.imgRetaAmarela {
+  position: absolute;
+  left: -50px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.textosServicosAmarela p {
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.textosServicosAmarela {
+  text-align: left;
+  margin-left: 60px;
+  padding: 4%;
+  box-sizing: border-box;
+  max-width: 1094px;
+}
+.textosServicosVerde {
+  text-align: right;
+  margin-right: 60px;
+  padding: 4%;
+  box-sizing: border-box;
+}
+
+.fonteTopicoTipoServico {
+  color: #fff;
+  font-size: 48px;
+}
+
+.retaVerde {
+  position: relative;
+  width: auto;
+  height: 100%;
+  background: linear-gradient(270deg, #087f8c 0%, rgba(8, 127, 140, 0) 100%);
+  margin: 5%;
+  margin-right: 16%;
+  border-radius: 0px 100px 100px 0px;
+}
+
+.descricaoTipoServico {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.topicosTreinameno {
+  color: #fff;
+  font-size: 36px;
+  margin-top: -3%;
+  margin-left: 22%;
+}
+
+.topicosTreinameno li {
+  margin: 20px;
+  padding: 1%;
+}
+
+.imgRetaVerde {
+  position: absolute;
+  right: -50px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+/* ------------------>> STYLE PARAQUEDAS ESG <<------------------*/
+
+.imgKellenParaquedasESG {
+  width: 100%;
+  overflow: hidden;
+}
+
+.imgKellenParaquedasESG img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pqSomosDiferentes p {
+  margin: 5%;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #087f8c;
+}
+
+.caixas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caixaAmarela1,
+.caixaAmarela2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.caixaAmarela1 img {
+  margin-left: 14%;
+}
+
+.caixaVerde {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.caixaVerde img {
+  margin-right: 16%;
+}
+
+.retaAmarelo1 {
+  width: 38%;
+  height: auto;
+  border-radius: 20px;
+  border: 9px solid #ffd71a;
+  background: #d9d9d9;
+  padding: 2%;
+  margin-left: 10%;
+}
+
+.retaVerde1 {
+  width: 38%;
+  height: auto;
+  border-radius: 20px;
+  border: 9px solid #087f8c;
+  background: #d9d9d9;
+  padding: 2%;
+  position: relative;
+  margin-right: 10%;
+}
+
+.retaAmarelo2 {
+  width: 38%;
+  height: auto;
+  border-radius: 20px;
+  border: 9px solid #ffd71a;
+  background: #d9d9d9;
+  padding: 2%;
+  margin-left: 10%;
+}
+
+.textoRetaAmarelo1,
+.textoRetaAmarelo2,
+.textoRetaVerde1 {
+  justify-content: flex-end;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 36px;
+}
+
+.imgCaixaAmarela1 {
+  display: flex;
+}
+
+.significadoFontes {
+  width: auto;
+  margin: 10%;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+}
+
+.fontesPalavras {
+  margin: -3% 0 5% 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fontesPalavras img {
+  max-width: 280px;
+  height: auto;
+  margin: 2%;
+}
+
+.qmSomosNos {
+  justify-content: center;
+  text-align: center;
+  padding: 4% 4% 0 4%;
+}
+
+.fundoQmsomos {
+  background: #087f8c;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.fundoQmsomos p {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.setaQmSomos {
+  display: flex;
+  justify-content: center;
+}
+
+.setaQmSomos img {
+  width: 10%;
+  height: auto;
+}
+
+.txtQmSomos {
+  padding: 20px;
+  border-radius: 20px;
+  border-bottom: 9px solid #ffd71a;
+  border-left: 9px solid #ffd71a;
+  background: #d9d9d9;
+  margin: 0 20% 6% 20%;
+}
+
+.txtQmSomos p {
+  text-align: center;
+  font-size: 48px;
+}
+
+/* --------------------------------------------------------------- */
+
+.conhecaNossaJornada {
+  background: #087f8c;
+  text-align: center;
+}
+
+.fundoConhecaNossaJornada {
+  border-radius: 0px 0px 20px 20px;
+  background: #ffd71a;
+  display: inline-block;
+}
+
+.fundoConhecaNossaJornada p {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px;
+}
+
+.topicos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topico1,
+.topico3,
+.topico2 {
+  position: relative;
+  margin: 1px 6%;
+  align-items: center;
+  display: flex;
+}
+
+.topico1 img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.imgTopico2 {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.txtJornadaEsq1 {
+  margin-right: 1%;
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+}
+
+.topico2 {
+  display: flex;
+  padding: 45px;
+}
+
+.txtJornadaDir {
+  color: #fff;
+  font-size: 40px;
+  text-align: right;
+}
+
+.topico3 {
+  display: flex;
+  padding: 45px;
+}
+
+.txtJornadaEsq2 {
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+}
+
+.topico3 img {
+  height: 400px;
+}
+
+/* --------------------------------------------------------------- */
+
+.tempoDeFirma {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #ffd71a;
+  text-decoration-thickness: 6px;
+  margin: 6%;
+}
+
+.tempo {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ANO {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.DEPARAQUEDASESG {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.imgTempo {
+  height: 60px;
+  width: auto;
+}
+
+/* ------------------>> STYLE BALÃO SOCIAL <<------------------*/
+
+.topicoBalao {
+  text-align: center;
+  color: #ffd71a;
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: underline;
+  text-decoration-color: #087f8c;
+  margin: 60px;
+}
+
+.textBalao1,
+.textBalao2 {
+  color: white;
+  font-size: 48px;
+  padding: 0 58px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.textBalao2 p {
+  margin: 6%;
+  text-align: left;
+}
+
+.textBalao1 img {
+  margin-left: -10%;
+  float: left;
+}
+
+.textBalao2 img {
+  margin-top: -14%;
+
+  margin-right: -10%;
+  float: right;
+}
+
+.textBalao2 ul {
+  margin: -4% 10%;
+  text-align: left;
+}
+
+.nuvens {
+  height: 60%;
+}
+
+.nuvemEsq {
+  margin-left: -4%;
+}
+
+.nuvemDir {
+  float: right;
+  margin-top: 10%;
+}
+
+.textNuvem {
+  color: white;
+  font-size: 48px;
+  margin: -2% 10% 4% 10%;
+}
+
+/* ---------------------------------------------------------- */
+
+.palestrasEoficinas {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #ffd71a;
+}
+
+.eventos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+}
+
+.eventos div {
+  margin: 28px;
+  width: auto;
+  border-radius: 30px;
+  border-right: 6px solid #ffd71a;
+  border-bottom: 6px solid #ffd71a;
+  background: #d9d9d9;
+}
+
+.eventos img {
+  margin: 10% auto;
+  display: block;
+}
+
+.eventosPalestras {
+  margin: 28px 8% 6% 8%;
+}
+
+.tipoPalestra {
+  font-size: 34px;
+  margin: 20px;
+  display: block;
+}
+
+.oficinaProjetos,
+.introducaoESG,
+.oficinaODS {
+  text-align: center;
+  padding: 10px;
+}
+
+.localPalestra {
+  font-size: 22px;
+}
+
+.imgGENH,
+.imgSENAC,
+.imgACIAP {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ---------------------------------------------------------- */
+
+.ponteAcademica {
+  margin-top: 6%;
+  background: #087f8c;
+  justify-content: center;
+  text-align: center;
+}
+
+.fundoTituloPonteAcad {
+  border-radius: 20px;
+  background: #ffd71a;
+  display: inline-block;
+  margin-top: -2%;
+}
+
+.fundoTituloPonteAcad p {
+  text-align: center;
+  font-size: 48px;
+  margin: 30px;
+}
+
+.textoPonteAcad {
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  padding: 6% 8%;
+}
+
+/* ---------------------------------------------------------- */
+
+.containerBalao {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.fonteMaior {
+  font-size: 96px;
+}
+
+.fonteMenor {
+  font-size: 36px;
+}
+
+.retaAmareloBalao1,
+.retaAmareloBalao2,
+.retaAmareloBalao3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffd71a;
+  border: 6px solid #000000;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .retaAmareloBalao1,
+  .retaAmareloBalao2,
+  .retaAmareloBalao3 {
+    margin-bottom: 20px;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+
+.qtdeProjetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 4%;
+}
+
+.qtdeProjetos2020,
+.qtdeProjetos2021,
+.qtdeProjetos2022,
+.qtdeProjetos2023 {
+  color: #fff;
+  font-size: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qtdeProjetos2021,
+.qtdeProjetos2023 {
+  color: #ffd71a;
+}
+
+.qtdeTempo {
+  font-size: 40px;
+}
+
+/* -------------------------------------- */
+
+.cadPonteAcad {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  margin: 6% 11% -3% 11%;
+}
+
+.linkForms {
+  padding: 4%;
+}
+
+.linkForms a {
+  color: white;
+  font-size: 40px;
+}
+
+/* ------------------>> STYLE FOOTER <<------------------*/
+
+footer {
+  text-align: center;
+  background-color: #087f8c;
+  width: 100%;
+  height: auto;
+}
+
+.imgParaquedas {
+  width: 30%;
+  height: auto;
+  margin: 2%;
+  margin-bottom: -1%;
+}
+
+.imgNavFooter {
+  display: inline-block;
+  margin: 2%;
+}
+
+.imgNavFooter img {
+  display: inline-block;
+  height: 30px;
+}
+
+.imgNavFooter p a {
+  color: #ffffff;
+  text-decoration: none;
+}
